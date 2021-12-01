@@ -85,7 +85,6 @@ DUMP *unwrap (DUMP *atomEntries, int nAtoms, DUMP simLow, DUMP simHigh)
 		unwrappedCoordinates[i].iz = 0;
 	}
 
-	free (unwrappedCoordinates);
 	return unwrappedCoordinates;
 }
 
